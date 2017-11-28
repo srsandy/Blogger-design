@@ -1,0 +1,50 @@
+
+
+@media screen and (max-width: 768px) {
+	.title {
+		font-size: 30px;
+	}
+
+	.content {
+		margin: 10% 10px;
+	}
+
+	footer {
+		height: 120px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	
+	#MenuLine{ 
+		width: 30px;
+	}
+
+	#MenuLine:after, #MenuLine:before {
+		width: 25px;
+	}
+
+	#MenuIcon {
+		top: 20px;
+		right: 10px
+	}
+
+	.title {
+		text-align: left;
+		margin-left: 20px;
+	}
+	.content {
+		margin-top: 15%;
+		grid-template-rows: repeat(15 ,minmax(100px, auto));
+	}
+
+	.main {
+		grid-column: span 12;
+	}
+
+	.post {
+		grid-column: span 6;
+	}
+}
+
+
