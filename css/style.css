@@ -184,6 +184,7 @@ ul li:hover .line{
     width: 100%;
 }
 
+
 .one {
     background: url('../img/one.jpg');
 }
@@ -229,10 +230,27 @@ ul li:hover .line{
     font-weight: 400;
 }
 
-.text img {
+.text .name {
     position: absolute;
     bottom: 20px;
 }
+
+.name img {
+    float: left;
+}
+
+.name >span {
+    float: right;
+    margin-top: 20px;
+    padding-left: 10px;
+    color: #000;
+}
+
+.name span >span {
+    font-size: 9px;
+}
+
+
 
 .imp img, .text img {
     height: 40px;
